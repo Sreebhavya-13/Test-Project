@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sample">
+<!--Suite-->
+<test name="Chrome">
+	<parameter name="browser" value="Chrome"/>
+
+  <test name="Hackathon Test">
+    <classes>
+      <!-- Add the class name to be tested -->
+      
+      <class name="com.test.Hack1"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

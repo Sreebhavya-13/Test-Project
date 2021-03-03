@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sample]">
+  <test thread-count="5" name="Hackathon Test(failed)">
+    <classes>
+      <class name="com.test.Hack1">
+        <methods>
+          <include name="group_gifting"/>
+          <include name="city"/>
+          <include name="checkPopUP"/>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="More"/>
+          <include name="cabs"/>
+          <include name="Date_time"/>
+          <include name="city1"/>
+          <include name="handleBrowser"/>
+          <include name="Persons"/>
+          <include name="hotel"/>
+        </methods>
+      </class> <!-- com.test.Hack1 -->
+    </classes>
+  </test> <!-- Hackathon Test(failed) -->
+</suite> <!-- Failed suite [sample] -->
